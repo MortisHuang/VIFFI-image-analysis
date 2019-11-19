@@ -36,11 +36,11 @@ or
 ```bash
 pip3 install libiary_name
 ```
-Step 1. Download this project as a .zip file, unzip the .zip file in one folder.
+### Step 1. Download this project as a .zip file, unzip the .zip file in one folder.
 
-Step 2. Make sure you already install all the libraries you saw above and those in the import session of the code.
+### Step 2. Make sure you already install all the libraries you saw above and those in the import session of the code.
 
-Step 3. Make sure the codes, "Euglena" folder and "Whitecell" folder are in the same path. (this is the default data path in the code)
+### Step 3. Make sure the codes, "Euglena" folder and "Whitecell" folder are in the same path. (this is the default data path in the code)
 
 It should be like this:
 
@@ -65,9 +65,9 @@ It should be like this:
      ...
  * README.md
 
-Step 4. Run the code, each code will automatically generate the subfolder for you.
+### Step 4. Run the code, each code will automatically generate the subfolder for you.
 
-Step 5. Check the subfoldesr and the results in it.
+### Step 5. Check the subfoldesr and the results in it.
 
 ## Typical Install time：
 
@@ -126,37 +126,94 @@ Expected output:
 
 These codes were written for 2 classes and the images are TIFF format. If you want to use your data, follow the steps below:
 
-Step 1: Make the right folder structure.
+### Step 1: Make the right folder structure.
 
 It should be like:
 
-* Cell
- * cell_type_a
-   * image_0001.png
-	 * image_0002.png
-	   ...
- * cell_type_b
-   * image_0001.png
-	 * image_0002.png
-	   ...
+ * Cell
+   * cell_type_a
+     * Image_0.png
+     * Image_1.png
+     ...
+   * cell_type_b
+     * Image_0.png
+     * Image_1.png
+     ...
      
-Step 2: Replace the data path and the class name.
+### Step 2: Replace the data path and the class name.
 
-In the codes whose name start from Fig4, SFig11 and SFig12:
-
+#### In the codes whose name start from Fig4, SFig11 and SFig12:
 from
 ```python
 labels=['neutrophyl','lymphocyte']
+base_path = r'.\Whitecell'
 ```
 to
 ```python
 labels=['cell_type_a','cell_type_b']
+base_path = r'G:\Data\Cell'
+```
+#### In the codes whose name start from Fig5:
+from
+```python
+entry1=r'.\Euglena\N-'
+entry2=r'.\Euglena\N+'
+```
+to
+```python
+entry1=r'G:\Data\Cell\cell_type_a'
+entry2=r'G:\Data\Cell\cell_type_b'
+```
+### Step 3: Change the data format
+
+#### In the codes whose name start from Fig4, SFig11 and SFig12:
+from
+```python
+if file.endswith(".tif"):   
+```
+to
+```python
+if file.endswith(".png"):
 ```
 
-## Contributing
-Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
+#### In the codes whose name start from Fig5:
+from
+```python
+fnamelist1 = glob.glob(os.path.join(entry1, '*.tif'))
+fnamelist2 = glob.glob(os.path.join(entry2, '*.tif'))
+```
+to
+```python
+fnamelist1 = glob.glob(os.path.join(entry1, '*.png'))
+fnamelist2 = glob.glob(os.path.join(entry2, '*.png'))
+```
 
-Please make sure to update tests as appropriate.
+## Restrictions on the file format 
+For VGG16 classification codes, you can use any type of image data, but the recommened shape of the image is better less than ( 250 x 250 ).
+
+Otherwise you will need a lot of time and RAM for training the model.
+
+**Make sure all the images in the folder are in the same shape.
+
+For other codes, the main logic is to use the first two layers of the image to do the image processing.
+
+normal RGB image:
+* Layer 1 -R (red color)
+* Layer 2 -G (green color)
+* Layer 3 -B (blue color)
+
+demo image:
+Whitecell image (8 bit):
+* Layer 1 - cytoplasm
+* Layer 2 - nucleus
+* Layer 3 - not used (abandon)
+
+Euglena image (8 bit):
+* Layer 1 - chlorophyll
+* Layer 2 - lipids
+* Layer 3 - not used (abandon)
+
+Make sure your information are in the right layer before you start the processing.
 
 ## License
 [MIT](https://choosealicense.com/licenses/mit/)
