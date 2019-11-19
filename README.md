@@ -89,6 +89,9 @@ Expected output:
 
 ### Fig4c_VGG16_whitecell.py
 ![t-SNE result](https://github.com/MortisHuang/VIFFI-image-analysis/blob/master/Fig4_2019_11_14/Fig4c_Whitecell_tSNE.png)
+
+(t-SNE has a cost function that is not convex, i.e. with different initializations we can get different results.)
+
 Expected output: 
 * Fig4_20xx_xx_xx
   * [Fig4c_Whitecell_tSNE.png]
@@ -114,6 +117,9 @@ Expected output:
   * [SFig11_35_CellArea.xlsx]
   
 ### SFig12_VGG16_euglena.py
+![t-SNE result](https://github.com/MortisHuang/VIFFI-image-analysis/blob/master/SFig12_2019_11_14/Euglena_tSNE.png)
+
+(t-SNE has a cost function that is not convex, i.e. with different initializations we can get different results.)
 
 Expected output:
 * SFig12_20xx_xx_xx
