@@ -65,9 +65,9 @@ It should be like this:
      ...
  * README.md
 
-### Step 4. Run the code, each code will automatically generate the subfolder for you.
+### Step 4. Run the code, each code will automatically generate the subfolders for you.
 
-### Step 5. Check the subfoldesr and the results in it.
+### Step 5. Check the subfolders and the results in it.
 
 ## Typical Install time：
 
