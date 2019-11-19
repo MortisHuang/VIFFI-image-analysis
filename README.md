@@ -221,5 +221,25 @@ Euglena image (8 bit):
 
 Make sure your information are in the right layer before you start the processing.
 
+## Original Data
+
+We put the original data (monochromatic tiff files) in Google Drive, please download them and unzip in same folder with the [mono_to_RGB_generator.py].
+
+Download Link:
+[Whitecell 385 MB](https://drive.google.com/file/d/1cy1cZHRqX379ETTT5bjgw0ol5Ave5aQ3/view?usp=sharing)
+[Euglena ]()
+
+
+### How to use
+
+You can change the variable raw_cell and raw_cell_type to generate different types of data.
+
+```python
+#%% Set the RAW data type
+
+raw_cell = "Euglena" # "Whitecell" or "Euglena"
+raw_cell_type = "N-"  # in Whitecell are "lymphocyte" and "neutrophyl", in Euglena are "N+" and "N-" 
+```
+
 ## License
 [MIT](https://choosealicense.com/licenses/mit/)
