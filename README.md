@@ -11,6 +11,8 @@ GPU：Nvidia GTX-1080 Ti (Not necessary but highly recommended)
 
 CPU：Inten i7-8700K
 
+RAM：32GB
+
 Environment Tool : [Anaconda 3](https://www.anaconda.com/) 
 ```bash
 Python Version : 3.6
@@ -89,12 +91,67 @@ Expected output:
 
 Expected output: 
 * Fig4_20xx_xx_xx
-  * [Fig4b_Area_Ratio.xlsx]
   * [Fig4c_Whitecell_tSNE.png]
   * [Fig4c_Whitecell_VGG16_tSNE_Result.xlsx]
   * [Whitecell_VGG16_training_history.xlsx]
   * .h5 model file.
+### Fig5b_lipid_droplets_area.py
 
+Expected output: 
+* Fig5_20xx_xx_xx  
+  * [Fig_5_b_Lipid_Drpolet_Area.xlsx]
+  
+### Fig5c_Number_of_lipid_droplets.py
+
+Expected output: 
+* Fig5_20xx_xx_xx  
+  * [Fig5_c_Number_of_lipid_droplets.xlsx]
+  
+### SFig11_Whitecell_Cell_Area.py
+
+Expected output: 
+* SFig11_20xx_xx_xx  
+  * [SFig11_35_CellArea.xlsx]
+  
+### SFig12_VGG16_euglena.py
+
+Expected output:
+* SFig12_20xx_xx_xx
+  * [Euglena_tSNE.png]
+  * [SFig12_Euglena_VGG16_tSNE_Result.xlsx]
+  * [Euglena_VGG16_training_history.xlsx]
+  * .h5 model file.
+
+## How to use your own data
+
+These codes were written for 2 classes and the images are TIFF format. If you want to use your data, follow the steps below:
+
+Step 1: Make the right folder structure.
+
+It should be like:
+
+* Cell
+ * cell_type_a
+   * image_0001.png
+	 * image_0002.png
+	   ...
+ * cell_type_b
+   * image_0001.png
+	 * image_0002.png
+	   ...
+     
+Step 2: Replace the data path and the class name.
+
+In the codes whose name start from Fig4, SFig11 and SFig12:
+
+from
+```python
+labels=['neutrophyl','lymphocyte']
+```
+to
+```python
+labels=['cell_type_a','cell_type_b']
+```
 
 ## Contributing
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
