@@ -85,7 +85,7 @@ Expected run time on a GPU support environment for all the codes is less than 30
 
 Expected output: 
 * Fig4_20xx_xx_xx
-  * [Fig4b_Area_Ratio.xlsx]
+  * [Fig4b_Area_Ratio.xlsx](https://github.com/MortisHuang/VIFFI-image-analysis/blob/master/Fig4_2019_11_14/Fig4b_Area_Ratio.xlsx)
 
 ### Fig4c_VGG16_whitecell.py
 ![t-SNE result](https://github.com/MortisHuang/VIFFI-image-analysis/blob/master/Fig4_2019_11_14/Fig4c_Whitecell_tSNE.png)
@@ -94,27 +94,27 @@ Expected output:
 
 Expected output: 
 * Fig4_20xx_xx_xx
-  * [Fig4c_Whitecell_tSNE.png]
-  * [Fig4c_Whitecell_VGG16_tSNE_Result.xlsx]
-  * [Whitecell_VGG16_training_history.xlsx]
-  * .h5 model file.
+  * [Fig4c_Whitecell_tSNE.png](https://github.com/MortisHuang/VIFFI-image-analysis/blob/master/Fig4_2019_11_14/Fig4c_Whitecell_tSNE.png)
+  * [Fig4c_Whitecell_VGG16_tSNE_Result.xlsx](https://github.com/MortisHuang/VIFFI-image-analysis/blob/master/Fig4_2019_11_14/Fig4c_Whitecell_VGG16_tSNE_Result.xlsx)
+  * [Whitecell_VGG16_training_history.xlsx](https://github.com/MortisHuang/VIFFI-image-analysis/blob/master/Fig4_2019_11_14/Whitecell_VGG16_training_history.xlsx)
+  * .h5 model file. (It's more than 600 MB so I didn't upload to here.)
 ### Fig5b_lipid_droplets_area.py
 
 Expected output: 
 * Fig5_20xx_xx_xx  
-  * [Fig_5_b_Lipid_Drpolet_Area.xlsx]
+  * [Fig_5_b_Lipid_Drpolet_Area.xlsx](https://github.com/MortisHuang/VIFFI-image-analysis/blob/master/Fig5_2019_11_14/Fig_5_b_Lipid_Drpolet_Area.xlsx)
   
 ### Fig5c_Number_of_lipid_droplets.py
 
 Expected output: 
 * Fig5_20xx_xx_xx  
-  * [Fig5_c_Number_of_lipid_droplets.xlsx]
+  * [Fig5_c_Number_of_lipid_droplets.xlsx](https://github.com/MortisHuang/VIFFI-image-analysis/blob/master/Fig5_2019_11_14/Fig5_c_Number_of_lipid_droplets.xlsx)
   
 ### SFig11_Whitecell_Cell_Area.py
 
 Expected output: 
 * SFig11_20xx_xx_xx  
-  * [SFig11_35_CellArea.xlsx]
+  * [SFig11_35_CellArea.xlsx](https://github.com/MortisHuang/VIFFI-image-analysis/blob/master/SFig11_2019_11_14/SFig11_35_CellArea.xlsx)
   
 ### SFig12_VGG16_euglena.py
 ![t-SNE result](https://github.com/MortisHuang/VIFFI-image-analysis/blob/master/SFig12_2019_11_14/Euglena_tSNE.png)
@@ -123,10 +123,10 @@ Expected output:
 
 Expected output:
 * SFig12_20xx_xx_xx
-  * [Euglena_tSNE.png]
-  * [SFig12_Euglena_VGG16_tSNE_Result.xlsx]
-  * [Euglena_VGG16_training_history.xlsx]
-  * .h5 model file.
+  * [Euglena_tSNE.png](https://github.com/MortisHuang/VIFFI-image-analysis/blob/master/SFig12_2019_11_14/Euglena_tSNE.png)
+  * [SFig12_Euglena_VGG16_tSNE_Result.xlsx](https://github.com/MortisHuang/VIFFI-image-analysis/blob/master/SFig12_2019_11_14/SFig12_Euglena_VGG16_tSNE_Result.xlsx)
+  * [Euglena_VGG16_training_history.xlsx](https://github.com/MortisHuang/VIFFI-image-analysis/blob/master/SFig12_2019_11_14/SFig12_Euglena_VGG16_tSNE_Result.xlsx)
+  * .h5 model file. (It's more than 600 MB so I didn't upload to here.)
 
 ## How to use your own data
 
