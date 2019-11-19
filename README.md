@@ -4,8 +4,11 @@ Here are the source codes of all the image analysis methods presented in the res
 ## Environment
 
 -----Last Update Time: 2019/11/19 -----
+
 Test Environment : Win 10 Version 1909
+
 GPU：Nvidia GTX-1080 Ti (Not necessary but highly recommended)
+
 CPU：Inten i7-8700K
 
 Environment Tool : [Anaconda 3](https://www.anaconda.com/) 
