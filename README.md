@@ -225,7 +225,7 @@ Make sure your information are in the right layer before you start the processin
 
 We put the original data (monochromatic tiff files) in Google Drive, please download them and unzip in same folder with the [mono_to_RGB_generator.py].
 
-See [readme.txt]()for the details of the tiff files.
+See [readme.txt]() for the details.
 
 Download Link:
 
@@ -246,6 +246,13 @@ raw_cell_type = "N-"  # in Whitecell are "lymphocyte" and "neutrophyl", in Eugle
 ```
 
 The code will create a folder named "generated" and all the images will be stored in it.
+
+You don't have to process all the data, you have a choice.
+
+```python
+#%%Generate and save
+image_number = 100  # generate 100 images you can use len(file_list_ch1) to generate all
+```
 
 
 ## License
