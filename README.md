@@ -254,6 +254,7 @@ You don't have to process all the data, you have a choice.
 image_number = 100  # generate 100 images you can use len(file_list_ch1) to generate all
 ```
 
+To generate 10,000 images, it tooks less than 5 minutes.
 
 ## License
 [MIT](https://choosealicense.com/licenses/mit/)
