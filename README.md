@@ -42,12 +42,12 @@ It should be like this:
  * Source Codes (.py files)
  * Euglena
    * N-
-     *Image_0.tif
-     *Image_1.tif
+     * Image_0.tif
+     * Image_1.tif
      ...
    * N+
-     *Image_0.tif
-     *Image_1.tif
+     * Image_0.tif
+     * Image_1.tif
      ...
  * Whitecell
    * lymphocyte
