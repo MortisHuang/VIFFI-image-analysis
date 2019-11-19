@@ -225,10 +225,14 @@ Make sure your information are in the right layer before you start the processin
 
 We put the original data (monochromatic tiff files) in Google Drive, please download them and unzip in same folder with the [mono_to_RGB_generator.py].
 
-Download Link:
-[Whitecell 385 MB](https://drive.google.com/file/d/1cy1cZHRqX379ETTT5bjgw0ol5Ave5aQ3/view?usp=sharing)
-[Euglena ]()
+See [readme.txt]()for the details of the tiff files.
 
+Download Link:
+
+* [Whitecell 385 MB](https://drive.google.com/file/d/1cy1cZHRqX379ETTT5bjgw0ol5Ave5aQ3/view?usp=sharing)
+  * 20,000 TIFF files for each type of the whitecells (Totoal 40,000 images)
+* [Euglena ]()
+  * ~25,000 TIFF files for each type of the euglena (Totoal ~50,000 images)
 
 ### How to use
 
@@ -240,6 +244,9 @@ You can change the variable raw_cell and raw_cell_type to generate different typ
 raw_cell = "Euglena" # "Whitecell" or "Euglena"
 raw_cell_type = "N-"  # in Whitecell are "lymphocyte" and "neutrophyl", in Euglena are "N+" and "N-" 
 ```
+
+The code will create a folder named "generated" and all the images will be stored in it.
+
 
 ## License
 [MIT](https://choosealicense.com/licenses/mit/)
