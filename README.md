@@ -51,12 +51,12 @@ It should be like this:
      ...
  * Whitecell
    * lymphocyte
-     *Image_0.tif
-     *Image_1.tif
+     * Image_0.tif
+     * Image_1.tif
      ...
    * neutrophyl
-     *Image_0.tif
-     *Image_1.tif
+     * Image_0.tif
+     * Image_1.tif
      ...
  * README.md
 
