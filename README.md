@@ -39,30 +39,59 @@ Step 3. Make sure the codes, "Euglena" folder and "Whitecell" folder are in the 
 
 It should be like this:
 
- * [tree-md](./tree-md)
- * [dir2](./dir2)
-   * [file21.ext](./dir2/file21.ext)
-   * [file22.ext](./dir2/file22.ext)
-   * [file23.ext](./dir2/file23.ext)
- * [dir1](./dir1)
-   * [file11.ext](./dir1/file11.ext)
-   * [file12.ext](./dir1/file12.ext)
- * [file_in_root.ext](./file_in_root.ext)
- * [README.md](./README.md)
+ * Source Codes (.py files)
+ * Euglena
+   * N-
+     *Image_0.tif
+     *Image_1.tif
+     ...
+   * N+
+     *Image_0.tif
+     *Image_1.tif
+     ...
+ * Whitecell
+   * lymphocyte
+     *Image_0.tif
+     *Image_1.tif
+     ...
+   * neutrophyl
+     *Image_0.tif
+     *Image_1.tif
+     ...
+ * README.md
 
 Step 4. Run the code, each code will automatically generate the subfolder for you.
 
-Step 5. Check the subfolder and the files in it.
+Step 5. Check the subfoldesr and the results in it.
 
-## Usage
+## Typical Install time：
 
-```python
-import foobar
+For a non-python computer：1.5 hours 
 
-foobar.pluralize('word') # returns 'words'
-foobar.pluralize('goose') # returns 'geese'
-foobar.singularize('phenomena') # returns 'phenomenon'
-```
+For a python-ready computer：less than 15 minutes
+
+## Demo
+
+You don't need to change any parameter in the codes, just make sure the codes, "Euglena" folder and "Whitecell" folder are in the same path.
+
+Expected run time on a GPU support environment for all the codes is less than 30 minutes.
+
+### Fig4b_Whitecell_Area_Ratio.py
+
+Expected output: 
+* Fig4_20xx_xx_xx
+  * [Fig4b_Area_Ratio.xlsx]
+
+### Fig4c_VGG16_whitecell.py
+
+Expected output: 
+* Fig4_20xx_xx_xx
+  * [Fig4b_Area_Ratio.xlsx]
+  * [Fig4c_Whitecell_tSNE.png]
+  * [Fig4c_Whitecell_VGG16_tSNE_Result.xlsx]
+  * [Whitecell_VGG16_training_history.xlsx]
+  * .h5 model file.
+
 
 ## Contributing
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
