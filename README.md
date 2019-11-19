@@ -231,7 +231,7 @@ Download Link:
 
 * [Whitecell 385 MB](https://drive.google.com/file/d/1cy1cZHRqX379ETTT5bjgw0ol5Ave5aQ3/view?usp=sharing)
   * 20,000 TIFF files for each type of the whitecells (Totoal 40,000 images)
-* [Euglena ]()
+* [Euglena  1.67 GB](https://drive.google.com/file/d/1CDq3D-NMzO57psldyUexEuH45Ton2d4K/view?usp=sharing)
   * ~25,000 TIFF files for each type of the euglena (Totoal ~50,000 images)
 
 ### How to use
