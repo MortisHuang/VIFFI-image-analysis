@@ -223,9 +223,9 @@ Make sure your information are in the right layer before you start the processin
 
 ## Original Data
 
-We put the original data (monochromatic tiff files) in Google Drive, please download them and unzip in same folder with the [mono_to_RGB_generator.py].
+We put the original data (monochromatic tiff files) in Google Drive, please download them and unzip in same folder with the [mono_to_RGB_generator.py](https://github.com/MortisHuang/VIFFI-image-analysis/blob/master/Original%20Data/mono_to_RGB_generator.py).
 
-See [readme.txt]() for the details.
+See [readme.txt](https://github.com/MortisHuang/VIFFI-image-analysis/blob/master/Original%20Data/readme.txt) for the details.
 
 Download Link:
 
