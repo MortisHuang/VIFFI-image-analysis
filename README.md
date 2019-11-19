@@ -88,7 +88,7 @@ Expected output:
   * [Fig4b_Area_Ratio.xlsx]
 
 ### Fig4c_VGG16_whitecell.py
-
+![t-SNE result](https://github.com/MortisHuang/VIFFI-image-analysis/blob/master/Fig4_2019_11_14/Fig4c_Whitecell_tSNE.png)
 Expected output: 
 * Fig4_20xx_xx_xx
   * [Fig4c_Whitecell_tSNE.png]
