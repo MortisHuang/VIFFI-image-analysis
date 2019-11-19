@@ -167,7 +167,7 @@ entry2=r'.\Euglena\N+'
 ```
 to
 ```python
-entry1=r'G:\Data\Cell\cell_type_a'
+entry1=r'G:[\]Data\Cell\cell_type_a'
 entry2=r'G:\Data\Cell\cell_type_b'
 ```
 ### Step 3: Change the data format
