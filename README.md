@@ -30,11 +30,11 @@ sklearn Version : 0.21.2
 Use the package manager [pip](https://pip.pypa.io/en/stable/) to install all the libraries mentioned above.
 
 ```bash
-pip install libiary_name
+pip install library_name
 ```
 or
 ```bash
-pip3 install libiary_name
+pip3 install library_name
 ```
 ### Step 1. Download this project as a .zip file, unzip the .zip file in one folder.
 
