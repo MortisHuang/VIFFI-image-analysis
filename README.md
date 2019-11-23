@@ -1,5 +1,7 @@
 # VIFFI-image-analysis
-Here are the source codes of all the image analysis methods presented in the research.
+Here are the source codes of cell image analysis methods presented in the research.
+
+Related work: [Link](https://github.com/hideharu-mikami/VIFFI-flbeads)
 
 ## Environment
 
