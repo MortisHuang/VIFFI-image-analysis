@@ -25,6 +25,9 @@ Pandas Version : 0.24.2
 Open-CV Version : 4.1.0
 Scipy Version : 1.2.1
 sklearn Version : 0.21.2
+Numpy Version : 1.16.4
+matplotlib Version : 3.1.2
+PIL Version : 6.2.1
 ```
 
 ## Installation
